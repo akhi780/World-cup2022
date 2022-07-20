@@ -1,3 +1,16 @@
+/* font  */
+@import url('https://fonts.googleapis.com/css2?family=Great+Vibes&family=Ibarra+Real+Nova&family=Poppins:ital,wght@1,500&family=The+Nautigal:wght@700&display=swap');
+
+
+/* common style  */
+h1,h2,h3{
+    font-family: 'Great Vibes', cursive;
+    font-family: 'Ibarra Real Nova', serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'The Nautigal', cursive;
+}
+
+
 /* -----------
 bannes styles 
 -------------*/
@@ -12,6 +25,10 @@ bannes styles
 }
 .information{
     text-align: center;
+    
+}
+.information{
+    text-overflow: ellipsis;
 }
 .play{
     
@@ -197,6 +214,9 @@ a{
         margin-left: 10px;
         grid-template-columns: repeat(1,1fr);
     }
+    .view{
+        display: none;
+    }
     .small{
         display: flex;
         flex-direction: column;
@@ -209,6 +229,10 @@ a{
 
 /* Tablet Devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
+    .continar{
+        width: 100%;
+    }
+    
     .play{
         /* background-color: brown; */
         grid-template-columns: repeat(1,1fr);
@@ -220,7 +244,9 @@ a{
     }
     .players-img img{
          width: 420px;
-        margin-left: 0px;
+        margin-left: 350px;
+        margin-bottom: 20px;
+        margin-top: -300px;
     } 
     .banner_img{
         height: 65%;
@@ -231,11 +257,12 @@ a{
     .boxs{
         display: grid;
         margin-left: 10px;
-        margin-top: 150px;
+        margin-top: 50px;
         grid-template-rows: repeat(3,1fr);
     }
     .box{
         background-color: white;
+        display: flex;
     }
   
     /* Blogs */
@@ -243,8 +270,11 @@ a{
         display: grid;
         grid-template-columns: repeat(2,1fr);
         margin-left:0px;
-        margin-top: 430px;
+        margin-top: 330px;
         width: 400px;
+    }
+    .view{
+        margin-left: 100px;
     }
    
     .match{
@@ -255,8 +285,7 @@ a{
         grid-template-columns: repeat(2,1fr);
     }
     .small{
-        display: flex;
-        flex-direction: column;
+        
         height:100%;
     }
     .small a{
