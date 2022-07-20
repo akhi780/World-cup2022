@@ -4,9 +4,9 @@ bannes styles
 .continar{
     background-color: black;
     text-align: center;
-    height:650px;
     color: aliceblue;
-    margin-top: 40px;
+    margin-left: 0px;
+    padding: 30px;
     border-radius: 15px;
 
 }
@@ -26,8 +26,9 @@ bannes styles
     margin: 0px;
 }
 .players-img img{
-    width: 510px;
+    width: 410px;
     margin-left: 12px;
+    height: 240px;
     
 }
 h1{
@@ -52,7 +53,8 @@ button:hover{
     margin-top: 60px;
     position: absolute;
     width: 252px;
-    height: 250px;
+    height: 280px;
+    
     margin-right: 400px;
 }
 h2{
@@ -66,16 +68,20 @@ h2{
 }
 .box{
     background-color: black;
+    height: 250px;
 }
 .box3{
     background-color:tomato ;
+    margin-top: 50px;
 
     
 }
 .box1{
     background-color: tomato;
 }
-
+.coming{
+    margin-top: 30px;
+}
 
 /* blogs styles  */
 .blog{
@@ -87,9 +93,10 @@ h2{
     margin-top: 50px;
 }
 .blogs-title{
-    width: 100px;
+    width: 150px;
     text-align: center;
-    margin-left:0px;
+    padding: 5px;
+    margin-top:15px;
 }
 
 /* match style */
@@ -143,12 +150,13 @@ a{
     .continar{
         display: grid;
        grid-template-columns: repeat(1,1fr);
+      
     }
     .play{
         /* background-color: brown; */
         grid-template-columns: repeat(1,1fr);
         grid-row-gap: 10px;
-        width: 280px;
+       
     }
     .players{
         width: 320px;
@@ -203,7 +211,7 @@ a{
 @media only screen and (min-width:688px) and (max-width:992px) {
     .continar{
        display: grid;
-       grid-template-columns: repeat(1,1fr);
+       grid-template-columns: repeat(2,1fr);
     }
     .play{
         /* background-color: brown; */
