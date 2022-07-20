@@ -209,10 +209,6 @@ a{
 
 /* Tablet Devices */
 @media only screen and (min-width:688px) and (max-width:992px) {
-    .continar{
-       display: grid;
-       grid-template-columns: repeat(2,1fr);
-    }
     .play{
         /* background-color: brown; */
         grid-template-columns: repeat(1,1fr);
