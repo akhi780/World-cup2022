@@ -1,0 +1,261 @@
+/* -----------
+bannes styles 
+-------------*/
+.continar{
+    background-color: black;
+    text-align: center;
+    height:650px;
+    color: aliceblue;
+    margin-top: 40px;
+    border-radius: 15px;
+
+}
+.information{
+    text-align: center;
+}
+.play{
+    
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    text-align: center;
+    margin-right: 100px;
+    grid-row-gap: 100px;
+    
+}
+.players{
+    margin: 0px;
+}
+.players-img img{
+    width: 510px;
+    margin-left: 12px;
+    
+}
+h1{
+    font-size: 60px;
+}
+
+button{
+    border: 1px solid wheat;
+    border-radius: 5px;
+    color: white;
+    background-color: goldenrod;
+    padding: 6px;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+button:hover{
+    color: aqua;
+    background-color: green;
+}
+/* boxs style  */
+.boxs{
+    margin-top: 60px;
+    position: absolute;
+    width: 252px;
+    height: 250px;
+    margin-right: 400px;
+}
+h2{
+ border: 2px solid;
+ background-color: white;
+ border-radius: 5px;
+ text-align: center;
+ margin: 20px;
+ height: 50px;
+
+}
+.box{
+    background-color: black;
+}
+.box3{
+    background-color:tomato ;
+
+    
+}
+.box1{
+    background-color: tomato;
+}
+
+
+/* blogs styles  */
+.blog{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 26px;
+    grid-column-gap: 20px;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+.blogs-title{
+    width: 100px;
+    text-align: center;
+    margin-left:0px;
+}
+
+/* match style */
+.match{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-row-gap: 60px;
+    grid-column-gap: 50px;
+    margin-left: 300px;
+    margin-top: 50px;
+    width: 500px;
+}
+.match-title p{
+
+     width: 100px;
+     text-align: center;
+     margin-left:0px;
+}
+.flag{
+    display: flex;
+    gap: 10px;
+    width: 300px;
+}
+
+
+/* footer style */
+
+.small{
+    text-align: center;
+    background-color:black ;
+    color: aliceblue;
+    height: 200px;
+}
+a{
+    text-decoration: none;
+    padding: 20px;
+    margin-bottom: 100px;
+}
+
+
+
+
+
+
+
+/* media queries */
+
+
+ /* mobile device */
+ @media only screen and (max-width:688px) {
+    .continar{
+        display: grid;
+       grid-template-columns: repeat(1,1fr);
+    }
+    .play{
+        /* background-color: brown; */
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 10px;
+        width: 280px;
+    }
+    .players{
+        width: 320px;
+    }
+    .players-img img{
+         width: 220px;
+        margin-right: 100px;
+    } 
+    .banner_img{
+        height: 65%;
+        width: 320px;
+        /* background-color: brown; */
+        margin-bottom: 100px;
+    }
+    .boxs{
+        display: grid;
+        margin-left: 10px;
+        margin-top: 150px;
+        grid-template-rows: repeat(1,1fr);
+    }
+    .box{
+        background-color: white;
+    }
+  
+    /* Blogs */
+    .blog{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin-left:0px;
+        margin-top: 430px;
+        width: 400px;
+    }
+   
+    .match{
+        margin-top: 300px;
+        width: 420px;
+        display: grid;
+        margin-left: 10px;
+        grid-template-columns: repeat(1,1fr);
+    }
+    .small{
+        display: flex;
+        flex-direction: column;
+        height:100%;
+    }
+    .small a{
+        margin: 0px;
+    }
+}
+
+/* Tablet Devices */
+@media only screen and (min-width:688px) and (max-width:992px) {
+    .continar{
+       display: grid;
+       grid-template-columns: repeat(1,1fr);
+    }
+    .play{
+        /* background-color: brown; */
+        grid-template-columns: repeat(1,1fr);
+        grid-row-gap: 10px;
+        width: 420px;
+    }
+    .players{
+        width: 320px;
+    }
+    .players-img img{
+         width: 420px;
+        margin-left: 0px;
+    } 
+    .banner_img{
+        height: 65%;
+        width: 420px;
+        /* background-color: brown; */
+        margin-bottom: 100px;
+    }
+    .boxs{
+        display: grid;
+        margin-left: 10px;
+        margin-top: 150px;
+        grid-template-rows: repeat(3,1fr);
+    }
+    .box{
+        background-color: white;
+    }
+  
+    /* Blogs */
+    .blog{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left:0px;
+        margin-top: 430px;
+        width: 400px;
+    }
+   
+    .match{
+        margin-top: 300px;
+        width: 420px;
+        display: grid;
+        margin-left: 10px;
+        grid-template-columns: repeat(2,1fr);
+    }
+    .small{
+        display: flex;
+        flex-direction: column;
+        height:100%;
+    }
+    .small a{
+        margin: 0px;
+    }
+}
